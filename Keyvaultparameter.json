@@ -1,0 +1,15 @@
+{
+   "$schema":"https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+   "contentVersion":"1.0.0.0",
+   "parameters":{
+      	"keyVaultName":{
+         "value":"KHCDE-NIELSENUS-DEV-KV-001"
+      },
+      	"objectId":{
+         "value":"2f96cd5b-2917-461d-824c-9d038877a29a"
+      },
+ 	 "tenantId":{
+         "value":"979fa29f-3efa-4b07-9556-0e8c200a5b32"
+      }
+   }
+}
