@@ -2,76 +2,65 @@
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-	"keyvaultname": {
-            "value": "KHCDE-NIELSENUS-DEV-KV",            
-        },
-        "location": {
-            "value": "East US 2",
-            
-        },
-        "enabledForDeployment": {
-            "value": false,
-            
-        },
-        "enabledForDiskEncryption": {
-            "value": false,
-            
-        },
-        "enabledForTemplateDeployment": {
-            "value": false,
-                       
-        },
-        "tenantId": {
-            "value": "33f40421-b5ae-440c-8c1f-114877bb6f66",
-            
-        },
-        "objectId": {
-            "value": "2f96cd5b-2917-461d-824c-9d038877a29a",
-          },
-        "keysPermissions": {
- 		"value": [
-                "list",
-                "create",
-                "update"
-        	    ]
-            
-       	 },
-        "secretsPermissions": {
-             "value": [
-                "list",
-                "create",
-                "update"
-           	 ]
-        },
-        "keyvaultskuName": {
-            "value": "Standard"
-        },
-     "tags": {
-            "value" : {
-       "Project" : "KHCDE",
-       "Environment" : "DEV",
-       "Owner" : "himanshu.aggarwal@kraftheinz.com"
+    "keyvaultname": {
+      "value": "KHCDE-NIELSENUS-DEV-KV"
+    },
+    "location": {
+      "value": "East US 2"
+    },
+    "enabledForDeployment": {
+      "value": false      
+    },
+    "enabledForDiskEncryption": {
+      "value": false      
+    },
+    "enabledForTemplateDeployment": {
+      "value": false                      
+    },
+    "tenantId": {
+      "value": "33f40421-b5ae-440c-8c1f-114877bb6f66"
+    },
+    "objectId": {
+      "value": "2f96cd5b-2917-461d-824c-9d038877a29a"
+    },
+    "keysPermissions": {
+      "value": [
+        "list",
+        "create",
+        "update"
+      ]        
+    },
+    "secretsPermissions": {
+      "value": [
+        "list",
+        "create",
+        "update"
+      ]
+    },
+    "keyvaultskuName": {
+      "value": "Standard"
+    },
+    "tags": {
+        "value" : {
+          "Project" : "KHCDE",
+          "Environment" : "DEV",
+          "Owner" : "himanshu.aggarwal@kraftheinz.com"
       }
-            },
-"datafactoryname": {
-                "value": "KHCDE-DATA-ENGINEERING-ADF-001"
-            },
-"subscriptionId": {
-            
-            "value": "33f40421-b5ae-440c-8c1f-114877bb6f66"
-            },
-"storageResourceGroupName": {
-            
-            "value": "KHC-DATA-ENGINEERING-RG"
-            },
-"storageAccountType": {
-            
-            "value": "Standard_LRS"
-            },
-"storageAccountName": {
-            
-            "value": "khcdestoragedemo01023"
-       }
- }
-
+    },
+    "datafactoryname": {
+      "value": "KHCDE-DATA-ENGINEERING-ADF-001"
+    },
+    "subscriptionId": {      
+      "value": "33f40421-b5ae-440c-8c1f-114877bb6f66"
+    },
+    "storageResourceGroupName": {      
+      "value": "KHC-DATA-ENGINEERING-RG"
+    },
+    "storageAccountType": {      
+      "value": "Standard_LRS"
+    },
+    "storageAccountName": {      
+      "value": "khcdestoragedemo01023"
+    }
+  }
 }
